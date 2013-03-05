@@ -1,0 +1,15 @@
+1) creates a new variable
+2) - Integer
+   - float
+   - bool
+   - string
+   - none
+3) an Integer = 1 since none of the divided or quotient is a float
+4) x%y
+
+7) Error since a string cannot be concanetated to a tuple
+8) Error since a string cannot be concanetated to a tuple
+9) "ABB"
+10) 'during t' 
+11) "BAAB was a Danish band unpopular during the 90's"
+

@@ -1,0 +1,4 @@
+#prints day of month
+
+day = '0:31:1'
+print
