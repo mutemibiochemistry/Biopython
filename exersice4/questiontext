@@ -1,0 +1,6 @@
+1) x%y
+2 vip = raw_input('user name: '
+  if [user name] in data base:
+  print 'Access granted'
+3) No 1 is an integer while '1' is a string
+

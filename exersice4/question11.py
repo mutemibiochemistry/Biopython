@@ -1,0 +1,21 @@
+number = int(raw_input("nos")
+if (number%1==0):
+	print 1
+if number%2==0:
+	print 2
+if nos%3==0:
+	print 3
+if nos%4==0:
+	print 4
+if nos%5==0:
+	print 5
+if nos%6==0:
+	print 6
+if nos%7==0:
+	print 7
+if nos%8==0:
+	print 8
+if nos%9==0:
+	print 9
+if nos%10==0:
+	print 10
