@@ -1,0 +1,5 @@
+n = int(raw_input("Enter nos: "))
+a = 0
+for i in range (1,n+1):
+	a = a + i
+print a
