@@ -1,0 +1,4 @@
+name = raw_input("what is your name? ")
+return what is your name?
+
+print greeting (what is your name?)

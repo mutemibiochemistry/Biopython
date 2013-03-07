@@ -1,0 +1,7 @@
+def sum (a,b):
+	return a+b
+test1 = sum (5, 10)
+test2 = sum (4, 5)
+
+print test1
+print test2
