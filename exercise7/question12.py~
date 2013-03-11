@@ -1,0 +1,4 @@
+nos = int(raw_input("Enter nos: "))
+for i in range(1,nos):
+	if nos%i == 0:
+		print i
