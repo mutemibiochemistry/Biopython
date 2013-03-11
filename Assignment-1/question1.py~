@@ -1,0 +1,7 @@
+#converts temparature from degree celcius to degree fahrenheit
+def convert_celcius_to_fahrenheit(degree):      #function
+	fahrenheit = 1.8*degree + 32 	
+	print float(degree),"Celcius ->",fahrenheit, "Fahrenheit"
+
+test1=convert_celcius_to_fahrenheit(50.0)
+test2=convert_celcius_to_fahrenheit(10.0)

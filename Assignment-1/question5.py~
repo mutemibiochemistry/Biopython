@@ -1,0 +1,11 @@
+#5-print the multiplication table
+i = 1					#multiplication variable
+print "The Multiplication table:"	#print the multiplicationtable
+while i < 11:				#
+    n = 1
+    while n <= 10:
+        print "%2d" % (i * n),
+        n += 1
+    print ""
+    i += 1
+
