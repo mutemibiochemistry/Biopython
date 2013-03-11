@@ -9,7 +9,7 @@ lessname=city
 largestincome=income
 money=income
 biggest=popn
-biggestpopn=popn
+biggestpopn=city
 while i <= 6:
 	if (capital == 'Y' and popn > 100000) or (capital != 'y' and popn > 200000 and income >= 720000000):
 		print city,"is a metropoly"
