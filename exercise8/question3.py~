@@ -1,0 +1,4 @@
+bases = ['a','c','g','t','t','a','t']
+for index in range(len(bases)):
+	if bases[index] =='t':
+		print index,"->",bases[index]

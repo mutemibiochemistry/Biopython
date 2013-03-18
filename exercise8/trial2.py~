@@ -1,0 +1,14 @@
+x = int(raw_input("Enter x: "))
+y = int(raw_input("Enter y: "))
+for i in range(1,26):
+	i= x + ((y*5)+1)
+	if i==5:
+		print " ",
+	else:
+		print "#",
+	if i%5 == 0:
+		print ' '
+
+
+	
+
