@@ -1,0 +1,9 @@
+#Write a function that computes the sum of squares of two or three numbers.
+a=int(raw_input("Enter number: "))
+b=int(raw_input("Enter number: "))
+c=int(raw_input("Enter number: "))
+
+def addsquares(a,b,c=0):
+	z = (a**2) + (b**2) + (c**2)
+	return z
+print addsquares(a,b,c)

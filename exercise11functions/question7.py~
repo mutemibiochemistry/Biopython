@@ -1,0 +1,11 @@
+#Write a function that accepts a list of numbers, and returns their mean.
+
+def mean_mylist(nos):
+	if len(nos) == 0:
+		return none
+	else:
+		total = sum(nos)
+		ave = 1.0*total/len(nos)
+		return ave
+
+print mean_mylist ( [1,2,3,4,5,6] )

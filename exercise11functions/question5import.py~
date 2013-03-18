@@ -1,0 +1,4 @@
+import question5
+a=int(raw_input("Enter number: "))
+print isaprime(a)
+
