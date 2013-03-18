@@ -1,0 +1,9 @@
+nucleotides=raw_input("Enter sequences: ")
+list1=[]
+list2=[]
+while nucleotides != '':
+	list1=list1 + [nucleotides]
+	list2=list2 + map(str.lower[nucleotides])
+	nucleotides=raw_input("Enter sequences: ")
+print list1
+print list2
