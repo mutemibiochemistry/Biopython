@@ -1,0 +1,27 @@
+#(15%) Modify the previous code in such a way that the user can input as many sequences as he desires, and the tuples now have a 5th position that counts any other character different to a valid nucleotide. For example, if the user inputs 2 sequences: 
+nucleotides= raw_input("Enter sequences: ").lower()
+list1=[]
+while nucleotides != '':
+	list1=list1 + [nucleotides]
+	nucleotides= raw_input("Enter sequences: ").lower()
+def count_nucleotides():
+	lista = []
+	for sequence in list1:
+		counterA=0
+		counterT=0
+		counterG=0
+		counterC=0
+		counterX=0
+		string='bdefhijklmnopqrsuvwxyz'
+		for char in sequence:
+			if char == 'a':
+				counterA=counterA + 1
+			if char == 't':
+				counterT=counterT + 1
+			if char == 'g':
+				counterG=counterG + 1
+			if char == 'c':
+				counterC=counterC + 1 
+			lista=lista + [(counterA,counterT,counterG,counterC,counterX=(len(sequence)-(int(counterA)) +int(counterT) +int(counterG) + int(counterC))]
+			return lista
+print count_nucleotides()
